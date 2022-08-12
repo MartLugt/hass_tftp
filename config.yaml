@@ -1,0 +1,16 @@
+name: "TFTP server"
+description: "Simple tftp server"
+version: "1.0.0"
+slug: "tftp"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+
+map: ["share"]
+
+ports:
+  69/udp: 69
