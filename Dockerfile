@@ -3,6 +3,7 @@ FROM $BUILD_FROM
 
 RUN apk add --no-cache tftp-hpa
 
+## Uncomment the following options if not using home assistant os
 # VOLUME /share/srv/tftp
 # EXPOSE 69/udp
 
